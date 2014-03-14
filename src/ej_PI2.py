@@ -21,13 +21,9 @@ def h(n):
 n = int(sys.argv[1])
 m = int(sys.argv[2])
 lista=[]
-for i in range (0, m):
-   pi=h(n)
+for i in range (1, m+1):
+   pi=h(i*n)
    lista.append(pi)
 #print "pi: %.35f" % (pi)
 #print "El valor de pi con 35 cifras decimales es:%.35f" % (PI)
 print lista
-
-  
-  
-  

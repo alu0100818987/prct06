@@ -26,7 +26,7 @@ for i in range (0, m):
    lista.append(pi)
 #print "pi: %.35f" % (pi)
 #print "El valor de pi con 35 cifras decimales es:%.35f" % (PI)
-print lista\n
+print lista
 
   
   
